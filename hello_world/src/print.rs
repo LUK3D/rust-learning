@@ -11,4 +11,10 @@ pub fn run(){
     //Named Args
     println!("{name} likes to play {activity}",name="Filipe", activity ="Video Games");
 
+    //Placeholder traits
+    println!("Binary: {:b} Hex: {:x} Octal: {:o}", 10, 10, 10 );
+
+    //Placeholder for Debug trait
+    println!("{:?}", (12, true, "Ola"));
+
 }   
