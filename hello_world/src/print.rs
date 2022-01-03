@@ -8,5 +8,7 @@ pub fn run(){
     //Positional Args
     println!("{0} is from {1} and {0} likes to {2}","Lukebana","Angola","code");
 
-    
+    //Named Args
+    println!("{name} likes to play {activity}",name="Filipe", activity ="Video Games");
+
 }   
