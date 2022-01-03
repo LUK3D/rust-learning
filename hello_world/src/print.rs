@@ -5,5 +5,8 @@ pub fn run(){
     //Basic Formatting 
     println!("Numero: {}",1);
 
-   
+    //Positional Args
+    println!("{0} is from {1} and {0} likes to {2}","Lukebana","Angola","code");
+
+    
 }   
